@@ -11,16 +11,22 @@
         html{
             height: 100%;
         }
-        @keyframes anmi {
-            from{background: red}
-            to{background: purple}
+        @keyframes anmi
+        {
+            0%   {opacity: 100;}
+            50%  {opacity: 0;}
+            100% {opacity: 100;}
         }
         h1{
-            animation: anmi 1s;
+            animation: anmi 3s infinite;
+
         }
     </style>
 </head>
 <body>
+<audio src="./mp3/Cody%20G.%20-%20ukulele%20and%20chill.mp3" controls="controls">
+    Your browser does not support the audio tag.
+</audio>
 <h1>This is a hedline</h1>
 <p>This is a test line</p>
 <p>For my first line</p>
